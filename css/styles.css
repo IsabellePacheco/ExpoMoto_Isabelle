@@ -1,3 +1,62 @@
 /* Font importada do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+    /* -- fonte laranja: #F2561D */
+    /* -- cor formulario:#808080 */
+    /* -- texto branco: #FFFFFF */
+    /* -- texto cinza claro #CBC9C3 */
+
+
+* {
+    font-family: "roboto", serif;
+    margin: 0;
+    padding: 0;
+}
+/* event form */
+/* imagem de fundo */
+#event-subscription {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/moto5.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+/* EXPOMOTO */
+#disclaimer h2, 
+#disclaimer .data-evento{
+    color:   #F2561D;
+}
+
+/*  */
+#disclaimer h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+/* um evento.... */
+#disclaimer .about-event {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+
+}
+
+#disclaimer p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+/* data do evento*/
+#disclaimer .data-evento {
+    font-weight: bold;
+}
+
+#subscription-form {
+
+}
