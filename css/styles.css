@@ -70,6 +70,7 @@
     margin-bottom: 1em;
 }
 
+<<<<<<< Updated upstream
 
 .form-group {
     display: flex;
@@ -337,4 +338,26 @@
 /* deixa o texto em negrito */
 #footer span {
     font-weight: bold;
+=======
+}
+
+/* mobile */
+@mmedia (max-whidth:450px) {
+    /* event form */
+
+
+    #event-subscription {
+    flex-directio: column;
+    height:auto;
+    }
+
+    #disclaimer {
+        padding:2em;
+    }
+
+    #disclaimer h2 {
+        margin-bottom:0.5em;
+    }
+
+>>>>>>> Stashed changes
 }
