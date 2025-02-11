@@ -343,7 +343,7 @@
 
 @media (max-width: 768px) {
     #event-subscription {
-        height: 50vh;
+        height: 150vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -354,7 +354,7 @@
     }
 
     #formulario {
-        max-width: 90%;
+        max-width: 30%;
         padding: 1.5em;
     }
 
