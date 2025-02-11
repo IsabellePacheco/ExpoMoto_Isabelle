@@ -19,7 +19,7 @@
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/moto5.jpg");
     background-position: center;
     background-size: cover;
-    height: 65vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -244,7 +244,7 @@
 #detail-2  h3 {
     margin-top: 2em;
     font-size: 2em;
-    font-weight: 00;
+    font-weight: 500;
     color: #808080;
 }
 
@@ -341,102 +341,111 @@
 
 }
 
-/* mobile */
-@mmedia (max-whidth:450px) {
-    /* event form */
-
-
+@media (max-width: 768px) {
     #event-subscription {
-    flex-direction: column;
-    height: 100px;;
-    }
-
-    #disclaimer {
-        padding:2em;
+        height: 50vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #disclaimer h2 {
-        margin-bottom:0.5em;
+        font-size: 2.5em;
     }
 
-    #subscription-form {
-        max-width:70%;
-        margin-bottom:2em;
+    #formulario {
+        max-width: 90%;
+        padding: 1.5em;
     }
 
+    #disclaimer .sobre-evento {
+        font-size: 1.5em;
+        max-width: 100%;
+    }
 
-
-/* benefits section */
     .benefits {
-    flex-direction: column;
-    align-items: center;
-    width:auto;
-    padding: 2em;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
     }
 
     .benefit {
-    max-width: 100%;
-    margin-bottom: 2em;
+        max-width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .benefit .benefit-img {
+        width: 150px;
+        height: 150px;
     }
 
     #location {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-    padding: 2em 0;
+        height: 350px;
     }
 
-    #address {
-    order: 2;
-    flex-direction:column;
-    max-width:100%
+    #address, #about-location {
+        max-width: 100%;
+        margin-bottom: 1em;
     }
-
-    #address i{
-    margin: 0.3em 0;
-    }
-
-    #about-location {
-    order:1;
-    max-width:100%
-    }
-
-    #about-location p {
-    display:none;
-    }
-
-
-/* event details container */
 
     .detail {
-        flex-direction:column;
-        margin-bottom:0.5em;
-        gap:0;
+        flex-direction: column;
+        align-items: center;
     }
 
     .detail img {
-        width: 100%;
-         margin:2em 0
-    }
-    #detail-1 img {
-    display:none;
-    }
-
-    .detail-description {
-    padding: 0;
-    }
-
-    #detail-3 img{
-    order:2;
-    }
-    
-    #detail-3 . .detail-description {
-        order:1;
-    }
-
-    #cat. bnt{
         width: 80%;
+    }
+
+    #cta h3 {
+        font-size: 1.2em;
+    }
+
+    #cta .bnt {
+        width: 60%;
+    }
+
+    #footer h3 {
+        font-size: 1.5em;
+    }
+
+    #footer p {
+        font-size: 1.1em;
     }
 }
 
+@media (max-width: 450px) {
+    #disclaimer h2 {
+        font-size: 2em;
+    }
 
+    #formulario p {
+        font-size: 1.2em;
+    }
+
+    #formulario {
+        max-width: 100%;
+        padding: 1.2em;
+    }
+
+    .benefit .benefit-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .benefits {
+        padding: 1em;
+    }
+
+    #cta h3 {
+        font-size: 1.1em;
+    }
+
+    #footer h3 {
+        font-size: 1.3em;
+    }
+
+    #footer p {
+        font-size: 1em;
+    }
+}
